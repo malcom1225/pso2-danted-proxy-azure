@@ -4,9 +4,9 @@
 ## internal: 10.0.0.1 port = 1080 # Bind to local network IPv4.
 ## internal: 192.168.1.2 port = 1080 # Bind to local network IPv4.
 ## internal: ::1 port = 1080 # Bind to loopback IPv6.
-internal: ens4 port = 6969
+internal: eth0 port = 6969
 # send out through... can be an IP or an interface. This `external` config uses same logic as `internal` above. However, it's best to use interface name here.
-external: ens4
+external: eth0
 
 # for user auth run as this user
 user.privileged:   root
