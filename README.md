@@ -1,6 +1,6 @@
 # pso2-danted-proxy
 
-this bash file is for Azure only cuz the Azure ifconfig is 
+this bash file is for Azure only cuz the Azure ifconfig is eth0
 
 ## remember to run this before bash file 
 sudo chmod +x run.sh
